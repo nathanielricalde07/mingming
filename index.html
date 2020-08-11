@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Index</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript">
+		function getwidth(){
+			var w = window.innerWidth;
+			var a = document.getElementById("responsive-menu");
+			if(w >= 1071){
+				a.style.display = "none";
+			}
+			document.getElementById('getwidth').innerHTML = w;
+		}
+
+		function formenu(){
+			var a = document.getElementById("responsive-menu");
+			if(a.style.display === "block"){
+				a.style.display = "none";
+			}else{
+				a.style.display = "block";
+			}
+		}
+	</script>
+</head>
+<body onresize="getwidth()">
+	<p id="getwidth"></p>
+	<nav>
+		<div class="brand">
+			<a href="#">Brand</a>
+		</div>
+
+		<div class="menu">
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+			<a href="#">Link 4</a>
+		</div>
+
+		<button onclick="formenu()">MENU</button>
+	</nav>
+
+	<div id="responsive-menu">
+		<div class="menu">
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+			<a href="#">Link 4</a>
+		</div>
+	</div>
+	
+	<header>
+		<div class="header">
+			<div class="banner">
+				<h1>Lorem ipsum dolor sit amet.</h1>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+				<div class="button_header">
+					<button>Button 1</button>
+					<button>Button 2</button>
+				</div>
+			</div>
+		</div>	
+	</header>
+
+	<section id="first">
+		<div class="section1_header">
+			<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+			<button>Button 1</button>
+		</div>
+		
+		<div class="section1_content">
+			<div class="section1_content">
+				<div class="content">
+					<img src="pics/pic2.jpg" width="100">
+					<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					</p>
+				</div>
+
+				<div class="content">
+					<img src="pics/pic3.jpg" width="100">
+					<h3>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h3>
+					<p>
+						When an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					</p>
+				</div>
+
+				<div class="content">
+					<img src="pics/pic4.jpg" width="100">
+					<h3>When an unknown printer took a galley of type and scrambled it to make a type specimen book.</h3>
+					<p>
+						 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+					</p>
+				</div>
+
+				<div class="content">
+					<img src="pics/pic5.jpg" width="100">
+					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+					<p>
+						And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="second">
+		<div class="section2_content">
+			<div class="content">
+				<h3 style="text-transform: uppercase;">Lorem Ipsum</h3>
+				<h1>Is simply dummy text of the printing.</h1>
+				<h3>And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h3>
+			</div>
+
+			<div class="content">
+				<div class="buttons">
+					<button>Button 1</button>
+					<button>Button 2</button>
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="buttons">
+					<button>Button 1</button>
+					<button>Button 2</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="third">
+		<div class="section3_header">
+			<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+			<div class="section3_content">
+				<div class="content">
+					<a href="#">
+						<img src="pics/pic4.jpg" width="312">
+						<div class="forhover"></div>
+					</a>
+					<h3>Lorem Ipsum</h3>
+					<p>And more recently with desktop publishing software like Aldus PageMaker</p>
+					<br><br>
+					<a href="#">Link 1</a>
+				</div>
+
+				<div class="content">
+					<a href="#">
+						<img src="pics/pic1.jpg" width="352">
+						<div class="forhover"></div>
+					</a>
+					<h3>Is simply dummy text</h3>
+					<p>When an unknown printer took a galley of type</p>
+					<br><br><br>
+					<a href="#">Link 2</a>
+				</div>
+
+				<div class="content">
+					<a href="#">
+						<img src="pics/pic3.jpg" width="312" height="230">
+						<div class="forhover"></div>
+					</a>
+					<h3>And more recently with desktop</h3>
+					<p>It was popularised in the 1960s with the release of Letraset sheets</p>
+					<br><br>
+					<a href="#">Link 3</a>
+				</div>
+			</div>
+		</div>
+	</section>	
+
+
+	<section id="fourth">
+		<div class="header">
+			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+			<button>Button 1</button>
+			<button>Button 2</button>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="logo">
+			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1><br>
+			<p>
+				Follow us: <a href="#">Facebook</a>, <a href="#">Linkeln</a>, <a href="#">Twitter</a>, <a href="#">Instagram</a>
+			</p>
+		</div>
+
+		<div class="links">
+			<ul>
+				<li class="link-title">Title Link 1</li>
+				<a href="#"><li class="link">Link 1</li></a>
+				<a href="#"><li class="link">Link 2</li></a>
+				<a href="#"><li class="link">Link 3</li></a>
+			</ul>
+
+			<ul>
+				<li class="link-title">Title Link 2</li>
+				<a href="#"><li class="link">Link 1</li></a>
+				<a href="#"><li class="link">Link 2</li></a>
+			</ul>
+
+			<ul>
+				<li class="link-title">Title Link 3</li>
+				<a href="#"><li class="link">Link 1</li></a>
+				<a href="#"><li class="link">Link 2</li></a>
+				<a href="#"><li class="link">Link 3</li></a>
+				<a href="#"><li class="link">Link 4</li></a>
+				<a href="#"><li class="link">Link 5</li></a>
+				<a href="#"><li class="link">Link 6</li></a>
+			</ul>
+
+			<ul>
+				<li class="link-title">Title Link 4</li>
+				<a href="#"><li class="link">Link 1</li></a>
+				<a href="#"><li class="link">Link 2</li></a>
+				<a href="#"><li class="link">Link 3</li></a>
+				<a href="#"><li class="link">Link 4</li></a>
+				<a href="#"><li class="link">Link 5</li></a>
+			</ul>
+		</div>
+		<h3>Copyright 2020 (For Practice Purposes)</h3>
+	</footer>
+</body>
+</html>
+
+
+<!--
+	
